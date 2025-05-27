@@ -49,3 +49,10 @@ It showcases my skills in responsive design, DOM manipulation, and real-time API
 ![Carousel](screenshots/carousel.png)
 ![Quiz](screenshots/quiz.png)
 ![Weather](screenshots/weather.png)
+
+Special thanks to ApexPlanet Software Pvt Ltd for assigning this exciting and skill-building task.
+This project helped me practice real-world JavaScript and front-end development.
+
+I’d love to hear your feedback! Feel free to share your thoughts, suggestions, or issues.
+
+#HTML #CSS #JavaScript #OpenWeatherMap #QuizApp #Carousel #FrontendDevelopment #ResponsiveDesign #MCA #ApexPlanet #WebDevelopment #StudentProject
