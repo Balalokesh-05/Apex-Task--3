@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 3: Advanced Styling and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<nav class="navbar">
+  <ul>
+  
+    <li><a href="#quiz">❓ Quiz</a></li>
+    <li><a href="#carousel">🌄 Carousel</a></li>
+    <li><a href="#weather">🌦️ Weather</a></li>
+  </ul>
+</nav>
+
+<body>
+  <header>
+    <h1>Quiz, Gallery & 🌍 Weather</h1>
+  </header>
+  <main>
+
+<section id="quiz">
+  <h2>🧠 HTML, CSS & JS Quiz</h2>
+  <div id="quiz-container">
+    <p id="question"></p>
+    <div id="options"></div>
+    <button onclick="nextQuestion()">Next</button>
+    <p id="score"></p>
+  </div>
+</section>
+
+<section class="carousel">
+  <h2>🌄 Explore Indian Destinations</h2>
+  <img id="carousel" src="ladakh.jpg" alt="Carousel Image">
+  <p id="caption">Ladakh – The Land of High Passes</p>
+  <div class="carousel-buttons">
+      <button onclick="prevImage()">⏮ Previous</button>
+    <button onclick="nextImage()">Next ⏭</button>
+  </div>
+</section>
+   
+    <section id="weather">
+      <h2>🌦️ Check Weather</h2>
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Get Weather</button>
+      <div id="loader" class="loader" style="display: none;"></div>
+      <div id="weatherResult"></div>
+    </section>
+   
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
